@@ -59,7 +59,6 @@ public class FieldsValidator {
         if (updatedFilm.getDuration() == null) {
             updatedFilm.setDuration(oldFilm.getDuration());
         }
-
     }
 
     public static void emailDoubleValidator(User user, Map<Long, User> users) {
